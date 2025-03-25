@@ -1,13 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace EmployeeService.Models;
 
 public partial class Department
 {
+    [Key]
     public int DepartmentId { get; set; }
 
-    public string DepartmentName { get; set; } = null!;
+    [Required(ErrorMessage = "Department name is required.")]
+    [StringLength(100, ErrorMessage = "Department name cannot exceed 100 characters.")]
+    public string DepartmentName { get; set; }
 
-    public virtual ICollection<Staff> Staff { get; set; } = new List<Staff>();
+    public ICollection<Staff> Staffs { get; set; } = new List<Staff>();
+
+    public ICollection<Inventory> Inventories { get; set; } = new List<Inventory>();
 }
