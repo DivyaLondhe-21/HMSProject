@@ -1095,7 +1095,10 @@
           "Swashbuckle.AspNetCore": "6.6.2"
         },
         "runtime": {
-          "ReservationService.dll": {}
+          "ReservationService.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "RoomService/1.0.0": {
@@ -1106,7 +1109,10 @@
           "Swashbuckle.AspNetCore": "6.6.2"
         },
         "runtime": {
-          "RoomService.dll": {}
+          "RoomService.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

@@ -47,14 +47,14 @@ namespace ReservationService.Controllers
         }
 
         [HttpPut("{ReservationId}")]
-        public async Task<IActionResult> PutReservation(int ReservationId, Reservation reservation)
+        public async Task<IActionResult> PutReservation(int ReservationId, ReservationViewModel reservation)
         {
             if (ReservationId != reservation.ReservationId)
             {
                 return BadRequest("Reservation ID mismatch");
             }
 
-            await _reservationRepository.UpdateReservationAsync(reservation);
+            await _reservationRepository.UpdateReservationAsync(ReservationId, reservation);
             return NoContent();
         }
 

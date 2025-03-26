@@ -38,7 +38,7 @@ public partial class RoomDbContext : DbContext
         {
             entity.HasIndex(e => e.GuestId, "IX_Rooms_GuestId");
 
-            entity.Property(e => e.RoomId).HasColumnName("RoomID");
+            entity.Property(e => e.RoomID).HasColumnName("RoomID");
             entity.Property(e => e.Period).HasMaxLength(20);
             entity.Property(e => e.Price).HasColumnType("decimal(18, 2)");
             entity.Property(e => e.RoomType).HasMaxLength(50);

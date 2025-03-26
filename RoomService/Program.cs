@@ -1,3 +1,8 @@
+using Microsoft.EntityFrameworkCore;
+using RoomService.Models;
+using RoomService.Repositories;
+using RoomService.Services;
+using RoomService.Interface;
 
 namespace RoomService
 {
@@ -7,10 +12,17 @@ namespace RoomService
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
+            // Register RoomDbContext with Dependency Injection container
+            builder.Services.AddDbContext<RoomDbContext>(options =>
+                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));  // Read connection string from appsettings.json
+
+            // Register RoomRepository and RoomService
+            builder.Services.AddScoped<IRoom, RoomRepository>(); // Register RoomRepository to IRoomRepository interface
+            builder.Services.AddScoped<RoomServiceFile>();           // Register RoomService
 
             builder.Services.AddControllers();
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
+            // Configure Swagger/OpenAPI
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
@@ -27,7 +39,7 @@ namespace RoomService
 
             app.UseAuthorization();
 
-
+            // Map controllers (ensures API endpoints are available)
             app.MapControllers();
 
             app.Run();

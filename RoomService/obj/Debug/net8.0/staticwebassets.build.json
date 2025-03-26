@@ -1,11 +1,23 @@
 {
   "Version": 1,
-  "Hash": "08oTlJQEUyQoUnZXJ2CHwipRLnR6TgtXMen/dEvIdUk=",
+  "Hash": "jThYUlPqRgmxnMCUna4/8uoQd3HwontRh6zKc9avBnk=",
   "Source": "RoomService",
   "BasePath": "_content/RoomService",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\ReservationService\\ReservationService.csproj",
+      "Version": 2,
+      "Source": "ReservationService",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
   "DiscoveryPatterns": [],
   "Assets": [],
   "Endpoints": []

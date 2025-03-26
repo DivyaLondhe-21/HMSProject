@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "efyXqfpQHP/E3eNYKkjHNC3+QCJwJjdvo/ISC9Eookw=",
+  "Hash": "iHUlxzA1pooQcN7Vk8L98T1GotJVO5oAplYYtvD6VFU=",
   "Source": "InventoryService",
   "BasePath": "_content/InventoryService",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

@@ -37,4 +37,6 @@ public partial class Room
     public Guest Guest { get; set; }
 
     public ICollection<Reservation> Reservations { get; set; } = new List<Reservation>();
+
+    public ICollection<Rate> Rates { get; set; } = new List<Rate>();
 }
