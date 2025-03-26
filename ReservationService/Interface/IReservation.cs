@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using ReservationService.Models;
+using ReservationService.ViewModel;
 
 namespace ReservationService.Interface
 {
@@ -8,8 +9,8 @@ namespace ReservationService.Interface
     {
         Task<IEnumerable<Reservation>> GetAllReservationsAsync();
         Task<Reservation> GetReservationByIdAsync(int ReservationId);
-        Task AddReservationAsync(Reservation reservation);
-        Task UpdateReservationAsync(Reservation reservation);
+        Task<ReservationViewModel> AddReservationAsync(ReservationViewModel reservation);
+        Task UpdateReservationAsync(ReservationViewModel reservation);
         Task DeleteReservationAsync(int ReservationId);
     }
 }

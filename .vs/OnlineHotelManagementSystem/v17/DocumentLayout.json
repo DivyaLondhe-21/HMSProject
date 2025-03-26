@@ -1,0 +1,357 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Dproject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2E771A57-64B0-4945-9AFC-7AA2C8B344E6}|ReservationService\\ReservationService.csproj|d:\\dproject\\reservationservice\\repositories\\roomrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E771A57-64B0-4945-9AFC-7AA2C8B344E6}|ReservationService\\ReservationService.csproj|solutionrelative:reservationservice\\repositories\\roomrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E771A57-64B0-4945-9AFC-7AA2C8B344E6}|ReservationService\\ReservationService.csproj|d:\\dproject\\reservationservice\\repositories\\reservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E771A57-64B0-4945-9AFC-7AA2C8B344E6}|ReservationService\\ReservationService.csproj|solutionrelative:reservationservice\\repositories\\reservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E771A57-64B0-4945-9AFC-7AA2C8B344E6}|ReservationService\\ReservationService.csproj|d:\\dproject\\reservationservice\\interface\\ireservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E771A57-64B0-4945-9AFC-7AA2C8B344E6}|ReservationService\\ReservationService.csproj|solutionrelative:reservationservice\\interface\\ireservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E771A57-64B0-4945-9AFC-7AA2C8B344E6}|ReservationService\\ReservationService.csproj|d:\\dproject\\reservationservice\\viewmodel\\reservationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E771A57-64B0-4945-9AFC-7AA2C8B344E6}|ReservationService\\ReservationService.csproj|solutionrelative:reservationservice\\viewmodel\\reservationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E771A57-64B0-4945-9AFC-7AA2C8B344E6}|ReservationService\\ReservationService.csproj|d:\\dproject\\reservationservice\\interface\\iroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E771A57-64B0-4945-9AFC-7AA2C8B344E6}|ReservationService\\ReservationService.csproj|solutionrelative:reservationservice\\interface\\iroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E771A57-64B0-4945-9AFC-7AA2C8B344E6}|ReservationService\\ReservationService.csproj|d:\\dproject\\reservationservice\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E771A57-64B0-4945-9AFC-7AA2C8B344E6}|ReservationService\\ReservationService.csproj|solutionrelative:reservationservice\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E771A57-64B0-4945-9AFC-7AA2C8B344E6}|ReservationService\\ReservationService.csproj|d:\\dproject\\reservationservice\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E771A57-64B0-4945-9AFC-7AA2C8B344E6}|ReservationService\\ReservationService.csproj|solutionrelative:reservationservice\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E771A57-64B0-4945-9AFC-7AA2C8B344E6}|ReservationService\\ReservationService.csproj|d:\\dproject\\reservationservice\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E771A57-64B0-4945-9AFC-7AA2C8B344E6}|ReservationService\\ReservationService.csproj|solutionrelative:reservationservice\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E771A57-64B0-4945-9AFC-7AA2C8B344E6}|ReservationService\\ReservationService.csproj|d:\\dproject\\reservationservice\\models\\rate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E771A57-64B0-4945-9AFC-7AA2C8B344E6}|ReservationService\\ReservationService.csproj|solutionrelative:reservationservice\\models\\rate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E771A57-64B0-4945-9AFC-7AA2C8B344E6}|ReservationService\\ReservationService.csproj|d:\\dproject\\reservationservice\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E771A57-64B0-4945-9AFC-7AA2C8B344E6}|ReservationService\\ReservationService.csproj|solutionrelative:reservationservice\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17D6D384-E90A-4FEA-A6F5-170D878F446F}|RoomService\\RoomService.csproj|d:\\dproject\\roomservice\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17D6D384-E90A-4FEA-A6F5-170D878F446F}|RoomService\\RoomService.csproj|solutionrelative:roomservice\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F14A943-4F78-42F8-9EC3-42E899A2D4FC}|PaymentService\\PaymentService.csproj|d:\\dproject\\paymentservice\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F14A943-4F78-42F8-9EC3-42E899A2D4FC}|PaymentService\\PaymentService.csproj|solutionrelative:paymentservice\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77638359-0E51-4070-8608-5D7953B5EFCF}|InventoryService\\InventoryService.csproj|d:\\dproject\\inventoryservice\\models\\inventorydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77638359-0E51-4070-8608-5D7953B5EFCF}|InventoryService\\InventoryService.csproj|solutionrelative:inventoryservice\\models\\inventorydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77638359-0E51-4070-8608-5D7953B5EFCF}|InventoryService\\InventoryService.csproj|d:\\dproject\\inventoryservice\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77638359-0E51-4070-8608-5D7953B5EFCF}|InventoryService\\InventoryService.csproj|solutionrelative:inventoryservice\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{013F9ECC-4E6F-455E-BE56-E1778CF37A9D}|EmployeeService\\EmployeeService.csproj|d:\\dproject\\employeeservice\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{013F9ECC-4E6F-455E-BE56-E1778CF37A9D}|EmployeeService\\EmployeeService.csproj|solutionrelative:employeeservice\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ADA77A5-025D-47AC-AEE0-C5C751498DF9}|AuthService\\AuthService.csproj|d:\\dproject\\authservice\\models\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ADA77A5-025D-47AC-AEE0-C5C751498DF9}|AuthService\\AuthService.csproj|solutionrelative:authservice\\models\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ADA77A5-025D-47AC-AEE0-C5C751498DF9}|AuthService\\AuthService.csproj|d:\\dproject\\authservice\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ADA77A5-025D-47AC-AEE0-C5C751498DF9}|AuthService\\AuthService.csproj|solutionrelative:authservice\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "D:\\Dproject\\ReservationService\\Models\\Reservation.cs",
+              "RelativeDocumentMoniker": "ReservationService\\Models\\Reservation.cs",
+              "ToolTip": "D:\\Dproject\\ReservationService\\Models\\Reservation.cs",
+              "RelativeToolTip": "ReservationService\\Models\\Reservation.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAADwvygAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T18:37:36.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ReservationViewModel.cs",
+              "DocumentMoniker": "D:\\Dproject\\ReservationService\\ViewModel\\ReservationViewModel.cs",
+              "RelativeDocumentMoniker": "ReservationService\\ViewModel\\ReservationViewModel.cs",
+              "ToolTip": "D:\\Dproject\\ReservationService\\ViewModel\\ReservationViewModel.cs",
+              "RelativeToolTip": "ReservationService\\ViewModel\\ReservationViewModel.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAA+wEgAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T03:06:48.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IReservation.cs",
+              "DocumentMoniker": "D:\\Dproject\\ReservationService\\Interface\\IReservation.cs",
+              "RelativeDocumentMoniker": "ReservationService\\Interface\\IReservation.cs",
+              "ToolTip": "D:\\Dproject\\ReservationService\\Interface\\IReservation.cs",
+              "RelativeToolTip": "ReservationService\\Interface\\IReservation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T20:10:12.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RoomController.cs",
+              "DocumentMoniker": "D:\\Dproject\\ReservationService\\Controllers\\RoomController.cs",
+              "RelativeDocumentMoniker": "ReservationService\\Controllers\\RoomController.cs",
+              "ToolTip": "D:\\Dproject\\ReservationService\\Controllers\\RoomController.cs",
+              "RelativeToolTip": "ReservationService\\Controllers\\RoomController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T03:25:50.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ReservationController.cs",
+              "DocumentMoniker": "D:\\Dproject\\ReservationService\\Controllers\\ReservationController.cs",
+              "RelativeDocumentMoniker": "ReservationService\\Controllers\\ReservationController.cs",
+              "ToolTip": "D:\\Dproject\\ReservationService\\Controllers\\ReservationController.cs",
+              "RelativeToolTip": "ReservationService\\Controllers\\ReservationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T20:09:52.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Rate.cs",
+              "DocumentMoniker": "D:\\Dproject\\ReservationService\\Models\\Rate.cs",
+              "RelativeDocumentMoniker": "ReservationService\\Models\\Rate.cs",
+              "ToolTip": "D:\\Dproject\\ReservationService\\Models\\Rate.cs",
+              "RelativeToolTip": "ReservationService\\Models\\Rate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T03:21:07.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Room.cs",
+              "DocumentMoniker": "D:\\Dproject\\ReservationService\\Models\\Room.cs",
+              "RelativeDocumentMoniker": "ReservationService\\Models\\Room.cs",
+              "ToolTip": "D:\\Dproject\\ReservationService\\Models\\Room.cs",
+              "RelativeToolTip": "ReservationService\\Models\\Room.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAADwvxQAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T18:39:45.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "D:\\Dproject\\PaymentService\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "PaymentService\\Models\\Payment.cs",
+              "ToolTip": "D:\\Dproject\\PaymentService\\Models\\Payment.cs",
+              "RelativeToolTip": "PaymentService\\Models\\Payment.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAA5wAQAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T19:54:52.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "InventoryDbContext.cs",
+              "DocumentMoniker": "D:\\Dproject\\InventoryService\\Models\\InventoryDbContext.cs",
+              "RelativeDocumentMoniker": "InventoryService\\Models\\InventoryDbContext.cs",
+              "ToolTip": "D:\\Dproject\\InventoryService\\Models\\InventoryDbContext.cs",
+              "RelativeToolTip": "InventoryService\\Models\\InventoryDbContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB0AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T19:32:29.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Department.cs",
+              "DocumentMoniker": "D:\\Dproject\\InventoryService\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "InventoryService\\Models\\Department.cs",
+              "ToolTip": "D:\\Dproject\\InventoryService\\Models\\Department.cs",
+              "RelativeToolTip": "InventoryService\\Models\\Department.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T19:29:34.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Room.cs",
+              "DocumentMoniker": "D:\\Dproject\\RoomService\\Models\\Room.cs",
+              "RelativeDocumentMoniker": "RoomService\\Models\\Room.cs",
+              "ToolTip": "D:\\Dproject\\RoomService\\Models\\Room.cs",
+              "RelativeToolTip": "RoomService\\Models\\Room.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwB0AAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T18:36:42.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Department.cs",
+              "DocumentMoniker": "D:\\Dproject\\EmployeeService\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "EmployeeService\\Models\\Department.cs",
+              "ToolTip": "D:\\Dproject\\EmployeeService\\Models\\Department.cs",
+              "RelativeToolTip": "EmployeeService\\Models\\Department.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T19:23:22.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserDbContext.cs",
+              "DocumentMoniker": "D:\\Dproject\\AuthService\\Models\\UserDbContext.cs",
+              "RelativeDocumentMoniker": "AuthService\\Models\\UserDbContext.cs",
+              "ToolTip": "D:\\Dproject\\AuthService\\Models\\UserDbContext.cs",
+              "RelativeToolTip": "AuthService\\Models\\UserDbContext.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAQwB0AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T19:19:53.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Dproject\\AuthService\\Models\\User.cs",
+              "RelativeDocumentMoniker": "AuthService\\Models\\User.cs",
+              "ToolTip": "D:\\Dproject\\AuthService\\Models\\User.cs",
+              "RelativeToolTip": "AuthService\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T19:20:09.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IRoom.cs",
+              "DocumentMoniker": "D:\\Dproject\\ReservationService\\Interface\\IRoom.cs",
+              "RelativeDocumentMoniker": "ReservationService\\Interface\\IRoom.cs",
+              "ToolTip": "D:\\Dproject\\ReservationService\\Interface\\IRoom.cs",
+              "RelativeToolTip": "ReservationService\\Interface\\IRoom.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T03:34:09.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RoomRepository .cs",
+              "DocumentMoniker": "D:\\Dproject\\ReservationService\\Repositories\\RoomRepository .cs",
+              "RelativeDocumentMoniker": "ReservationService\\Repositories\\RoomRepository .cs",
+              "ToolTip": "D:\\Dproject\\ReservationService\\Repositories\\RoomRepository .cs",
+              "RelativeToolTip": "ReservationService\\Repositories\\RoomRepository .cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAC8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T03:33:09.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReservationRepository.cs",
+              "DocumentMoniker": "D:\\Dproject\\ReservationService\\Repositories\\ReservationRepository.cs",
+              "RelativeDocumentMoniker": "ReservationService\\Repositories\\ReservationRepository.cs",
+              "ToolTip": "D:\\Dproject\\ReservationService\\Repositories\\ReservationRepository.cs",
+              "RelativeToolTip": "ReservationService\\Repositories\\ReservationRepository.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAqwDsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T20:08:43.195Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{be4d7042-ba3f-11d2-840e-00c04f9902c1}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

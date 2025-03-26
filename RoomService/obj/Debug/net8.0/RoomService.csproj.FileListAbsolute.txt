@@ -171,3 +171,14 @@ C:\Users\DRAJESHL\source\repos\OnlineHotelManagementSystem\RoomService\obj\Debug
 C:\Users\DRAJESHL\source\repos\OnlineHotelManagementSystem\RoomService\obj\Debug\net8.0\RoomService.pdb
 C:\Users\DRAJESHL\source\repos\OnlineHotelManagementSystem\RoomService\obj\Debug\net8.0\RoomService.genruntimeconfig.cache
 C:\Users\DRAJESHL\source\repos\OnlineHotelManagementSystem\RoomService\obj\Debug\net8.0\ref\RoomService.dll
+D:\Dproject\RoomService\obj\Debug\net8.0\RoomService.csproj.AssemblyReference.cache
+D:\Dproject\RoomService\obj\Debug\net8.0\RoomService.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dproject\RoomService\obj\Debug\net8.0\RoomService.AssemblyInfoInputs.cache
+D:\Dproject\RoomService\obj\Debug\net8.0\RoomService.AssemblyInfo.cs
+D:\Dproject\RoomService\obj\Debug\net8.0\RoomService.csproj.CoreCompileInputs.cache
+D:\Dproject\RoomService\obj\Debug\net8.0\RoomService.MvcApplicationPartsAssemblyInfo.cs
+D:\Dproject\RoomService\obj\Debug\net8.0\RoomService.MvcApplicationPartsAssemblyInfo.cache
+D:\Dproject\RoomService\obj\Debug\net8.0\RoomService.sourcelink.json
+D:\Dproject\RoomService\obj\Debug\net8.0\RoomService.dll
+D:\Dproject\RoomService\obj\Debug\net8.0\refint\RoomService.dll
+D:\Dproject\RoomService\obj\Debug\net8.0\RoomService.pdb

@@ -171,3 +171,14 @@ C:\Users\DRAJESHL\source\repos\OnlineHotelManagementSystem\EmployeeService\bin\D
 C:\Users\DRAJESHL\source\repos\OnlineHotelManagementSystem\EmployeeService\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\DRAJESHL\source\repos\OnlineHotelManagementSystem\EmployeeService\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 C:\Users\DRAJESHL\source\repos\OnlineHotelManagementSystem\EmployeeService\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Dproject\EmployeeService\obj\Debug\net8.0\EmployeeService.csproj.AssemblyReference.cache
+D:\Dproject\EmployeeService\obj\Debug\net8.0\EmployeeService.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dproject\EmployeeService\obj\Debug\net8.0\EmployeeService.AssemblyInfoInputs.cache
+D:\Dproject\EmployeeService\obj\Debug\net8.0\EmployeeService.AssemblyInfo.cs
+D:\Dproject\EmployeeService\obj\Debug\net8.0\EmployeeService.csproj.CoreCompileInputs.cache
+D:\Dproject\EmployeeService\obj\Debug\net8.0\EmployeeService.MvcApplicationPartsAssemblyInfo.cs
+D:\Dproject\EmployeeService\obj\Debug\net8.0\EmployeeService.MvcApplicationPartsAssemblyInfo.cache
+D:\Dproject\EmployeeService\obj\Debug\net8.0\EmployeeService.sourcelink.json
+D:\Dproject\EmployeeService\obj\Debug\net8.0\EmployeeService.dll
+D:\Dproject\EmployeeService\obj\Debug\net8.0\refint\EmployeeService.dll
+D:\Dproject\EmployeeService\obj\Debug\net8.0\EmployeeService.pdb

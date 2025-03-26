@@ -15,5 +15,4 @@ public partial class Department
 
     public ICollection<Staff> Staffs { get; set; } = new List<Staff>();
 
-    public ICollection<Inventory> Inventories { get; set; } = new List<Inventory>();
 }

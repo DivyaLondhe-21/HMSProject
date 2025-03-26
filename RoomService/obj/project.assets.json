@@ -1695,6 +1695,23 @@
             "rid": "win"
           }
         }
+      },
+      "ReservationService/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.3",
+          "Swashbuckle.AspNetCore": "6.6.2"
+        },
+        "compile": {
+          "bin/placeholder/ReservationService.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ReservationService.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -5159,6 +5176,11 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "ReservationService/1.0.0": {
+      "type": "project",
+      "path": "../ReservationService/ReservationService.csproj",
+      "msbuildProject": "../ReservationService/ReservationService.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5167,27 +5189,28 @@
       "Microsoft.EntityFrameworkCore.Design >= 9.0.3",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.3",
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.3",
+      "ReservationService >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.6.2"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DRAJESHL\\.nuget\\packages\\": {},
+    "C:\\Users\\HP\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\RoomService\\RoomService.csproj",
+      "projectUniqueName": "D:\\Dproject\\RoomService\\RoomService.csproj",
       "projectName": "RoomService",
-      "projectPath": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\RoomService\\RoomService.csproj",
-      "packagesPath": "C:\\Users\\DRAJESHL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\RoomService\\obj\\",
+      "projectPath": "D:\\Dproject\\RoomService\\RoomService.csproj",
+      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+      "outputPath": "D:\\Dproject\\RoomService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\DRAJESHL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -5196,12 +5219,17 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Dproject\\ReservationService\\ReservationService.csproj": {
+              "projectPath": "D:\\Dproject\\ReservationService\\ReservationService.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -5213,8 +5241,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.100"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -5264,7 +5291,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.104/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

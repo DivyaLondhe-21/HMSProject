@@ -4,6 +4,7 @@ using ReservationService.Models;
 using ReservationService.Interface;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using ReservationService.ViewModel;
 
 namespace ReservationService.Controllers
 {
@@ -37,9 +38,11 @@ namespace ReservationService.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<Reservation>> PostReservation(Reservation reservation)
+        public async Task<ActionResult<Reservation>> CreateReservation(ReservationViewModel reservation)
         {
+    
             await _reservationRepository.AddReservationAsync(reservation);
+
             return CreatedAtAction(nameof(GetReservation), new { ReservationId = reservation.ReservationId }, reservation);
         }
 
@@ -48,7 +51,7 @@ namespace ReservationService.Controllers
         {
             if (ReservationId != reservation.ReservationId)
             {
-                return BadRequest();
+                return BadRequest("Reservation ID mismatch");
             }
 
             await _reservationRepository.UpdateReservationAsync(reservation);

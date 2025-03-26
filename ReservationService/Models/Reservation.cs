@@ -32,10 +32,11 @@ public partial class Reservation
     public int RoomId { get; set; }
     [ForeignKey("RoomId")]
     public Room Room { get; set; }
-    public ICollection<Payment> Payments { get; set; } = new List<Payment>();
 
-    public void CalculateNumOfNights()
-    {
-        NumberOfNights = Math.Max((CheckOutDate - CheckInDate).Days, 1);
-    }
+    [Required]
+    public int GuestId { get; set; }
+
+    [ForeignKey("GuestId")]
+    public Guest Guest { get; set; }
+
 }

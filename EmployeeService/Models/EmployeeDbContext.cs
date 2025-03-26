@@ -19,7 +19,6 @@ public partial class EmployeeDbContext : DbContext
 
     public virtual DbSet<Staff> Staffs { get; set; }
 
-    public virtual DbSet<User> Users { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         => optionsBuilder.UseSqlServer("Data Source=LIN-5CG4464LZR\\SQLEXPRESS;Initial Catalog=HotelManagementSystemDb;Integrated Security=True;Trust Server Certificate=True;");
@@ -38,20 +37,15 @@ public partial class EmployeeDbContext : DbContext
             entity.Property(e => e.Email).HasMaxLength(100);
             entity.Property(e => e.EmployeeAddress).HasMaxLength(200);
             entity.Property(e => e.EmployeeName).HasMaxLength(100);
-            entity.Property(e => e.Nic)
+            entity.Property(e => e.NIC)
                 .HasMaxLength(15)
                 .HasColumnName("NIC");
             entity.Property(e => e.Occupation).HasMaxLength(50);
             entity.Property(e => e.Salary).HasColumnType("decimal(18, 2)");
 
-            entity.HasOne(d => d.Department).WithMany(p => p.Staff).HasForeignKey(d => d.DepartmentId);
+            entity.HasOne(d => d.Department).WithMany(p => p.Staffs).HasForeignKey(d => d.DepartmentId);
         });
 
-        modelBuilder.Entity<User>(entity =>
-        {
-            entity.Property(e => e.Email).HasMaxLength(100);
-            entity.Property(e => e.Password).HasMaxLength(100);
-        });
 
         OnModelCreatingPartial(modelBuilder);
     }

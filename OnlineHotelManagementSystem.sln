@@ -3,23 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReservationServices", "ReservationServices\ReservationServices.csproj", "{1377D2C8-6318-4279-8CCB-2D8CBDB55E4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReservationService", "ReservationService\ReservationService.csproj", "{2E771A57-64B0-4945-9AFC-7AA2C8B344E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentServices", "PaymentServices\PaymentServices.csproj", "{A00740F6-5336-44B7-BF0A-FF42EE43463B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeService", "EmployeeService\EmployeeService.csproj", "{013F9ECC-4E6F-455E-BE56-E1778CF37A9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuestServices", "GuestServices\GuestServices.csproj", "{5A8A3A73-01E6-47A9-BE3C-40CEB69126DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InventoryService", "InventoryService\InventoryService.csproj", "{77638359-0E51-4070-8608-5D7953B5EFCF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoomServices", "RoomServices\RoomServices.csproj", "{5B860F33-521C-4F33-9455-868570B92B5C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoomService", "RoomService\RoomService.csproj", "{17D6D384-E90A-4FEA-A6F5-170D878F446F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReservationService", "ReservationService\ReservationService.csproj", "{2E771A57-64B0-4945-9AFC-7AA2C8B344E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentService", "PaymentService\PaymentService.csproj", "{5F14A943-4F78-42F8-9EC3-42E899A2D4FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeService", "EmployeeService\EmployeeService.csproj", "{013F9ECC-4E6F-455E-BE56-E1778CF37A9D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryService", "InventoryService\InventoryService.csproj", "{77638359-0E51-4070-8608-5D7953B5EFCF}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoomService", "RoomService\RoomService.csproj", "{17D6D384-E90A-4FEA-A6F5-170D878F446F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentService", "PaymentService\PaymentService.csproj", "{5F14A943-4F78-42F8-9EC3-42E899A2D4FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthService", "AuthService\AuthService.csproj", "{7ADA77A5-025D-47AC-AEE0-C5C751498DF9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,22 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1377D2C8-6318-4279-8CCB-2D8CBDB55E4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1377D2C8-6318-4279-8CCB-2D8CBDB55E4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1377D2C8-6318-4279-8CCB-2D8CBDB55E4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1377D2C8-6318-4279-8CCB-2D8CBDB55E4F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A00740F6-5336-44B7-BF0A-FF42EE43463B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A00740F6-5336-44B7-BF0A-FF42EE43463B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A00740F6-5336-44B7-BF0A-FF42EE43463B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A00740F6-5336-44B7-BF0A-FF42EE43463B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5A8A3A73-01E6-47A9-BE3C-40CEB69126DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5A8A3A73-01E6-47A9-BE3C-40CEB69126DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5A8A3A73-01E6-47A9-BE3C-40CEB69126DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5A8A3A73-01E6-47A9-BE3C-40CEB69126DF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5B860F33-521C-4F33-9455-868570B92B5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5B860F33-521C-4F33-9455-868570B92B5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5B860F33-521C-4F33-9455-868570B92B5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5B860F33-521C-4F33-9455-868570B92B5C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2E771A57-64B0-4945-9AFC-7AA2C8B344E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2E771A57-64B0-4945-9AFC-7AA2C8B344E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E771A57-64B0-4945-9AFC-7AA2C8B344E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -63,8 +41,15 @@ Global
 		{5F14A943-4F78-42F8-9EC3-42E899A2D4FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F14A943-4F78-42F8-9EC3-42E899A2D4FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F14A943-4F78-42F8-9EC3-42E899A2D4FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ADA77A5-025D-47AC-AEE0-C5C751498DF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ADA77A5-025D-47AC-AEE0-C5C751498DF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ADA77A5-025D-47AC-AEE0-C5C751498DF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ADA77A5-025D-47AC-AEE0-C5C751498DF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {32283E09-2D54-42A7-89E4-C7DA24FF6A27}
 	EndGlobalSection
 EndGlobal

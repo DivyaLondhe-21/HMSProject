@@ -18,6 +18,9 @@ public partial class ReservationDbContext : DbContext
     public virtual DbSet<Guest> Guests { get; set; }
 
     public virtual DbSet<Reservation> Reservations { get; set; }
+    public virtual DbSet<Room> Rooms { get; set; }
+    public virtual DbSet<Rate> Rates { get; set; }
+
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
