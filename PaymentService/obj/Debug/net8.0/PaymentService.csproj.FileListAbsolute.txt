@@ -164,7 +164,6 @@ C:\Users\DRAJESHL\source\repos\OnlineHotelManagementSystem\PaymentService\obj\De
 C:\Users\DRAJESHL\source\repos\OnlineHotelManagementSystem\PaymentService\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.PaymentService.props
 C:\Users\DRAJESHL\source\repos\OnlineHotelManagementSystem\PaymentService\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.PaymentService.props
 C:\Users\DRAJESHL\source\repos\OnlineHotelManagementSystem\PaymentService\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\DRAJESHL\source\repos\OnlineHotelManagementSystem\PaymentService\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\DRAJESHL\source\repos\OnlineHotelManagementSystem\PaymentService\obj\Debug\net8.0\PaymentS.0CEDD34D.Up2Date
 C:\Users\DRAJESHL\source\repos\OnlineHotelManagementSystem\PaymentService\obj\Debug\net8.0\PaymentService.dll
 C:\Users\DRAJESHL\source\repos\OnlineHotelManagementSystem\PaymentService\obj\Debug\net8.0\refint\PaymentService.dll
@@ -362,3 +361,4 @@ C:\Users\DRAJESHL\source\repos\OnlineHotelManagementSystem\PaymentService\bin\De
 C:\Users\DRAJESHL\source\repos\OnlineHotelManagementSystem\PaymentService\bin\Debug\net8.0\RoomService.dll
 C:\Users\DRAJESHL\source\repos\OnlineHotelManagementSystem\PaymentService\bin\Debug\net8.0\ReservationService.pdb
 C:\Users\DRAJESHL\source\repos\OnlineHotelManagementSystem\PaymentService\bin\Debug\net8.0\RoomService.pdb
+C:\Users\DRAJESHL\source\repos\OnlineHotelManagementSystem\PaymentService\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

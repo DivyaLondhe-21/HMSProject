@@ -1,3 +1,7 @@
+using Microsoft.EntityFrameworkCore;
+using PaymentService.Interface;
+using PaymentService.Models;
+using PaymentService.Repositories;
 
 namespace PaymentService
 {
@@ -8,9 +12,18 @@ namespace PaymentService
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
+            // Registering DbContext
+            builder.Services.AddDbContext<PaymentDbContext>(options =>
+                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+            // Registering repositories
+            builder.Services.AddScoped<IPaymentRepository, PaymentRepository>();
+            builder.Services.AddScoped<IBillRepository, BillRepository>();
+
+            // Add controllers
             builder.Services.AddControllers();
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
+            // Swagger/OpenAPI setup
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
@@ -27,7 +40,7 @@ namespace PaymentService
 
             app.UseAuthorization();
 
-
+            // Map controllers to the pipeline
             app.MapControllers();
 
             app.Run();

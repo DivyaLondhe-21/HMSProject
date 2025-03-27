@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "j1JVsTzFZqSDx6Yd9whC1xLcklllNkumzSgzB4qMVlk=",
+  "Source": "HotelGateway",
+  "BasePath": "_content/HotelGateway",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
