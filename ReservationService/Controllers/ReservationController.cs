@@ -37,28 +37,40 @@ namespace ReservationService.Controllers
             return Ok(reservation);
         }
 
-        [HttpPost]
+        [HttpGet("active")]
+        public async Task<ActionResult<IEnumerable<Reservation>>> GetActiveReservation()
+        {
+            var reservations = await _reservationRepository.GetActiveReservationAsync();
+            return Ok(reservations);
+        }
+
+        [HttpPost("create")]
         public async Task<ActionResult<Reservation>> CreateReservation(ReservationViewModel reservation)
         {
     
-            await _reservationRepository.AddReservationAsync(reservation);
+           var createdReservation =  await _reservationRepository.AddReservationAsync(reservation);
 
-            return CreatedAtAction(nameof(GetReservation), new { ReservationId = reservation.ReservationId }, reservation);
+            return CreatedAtAction(nameof(GetReservation), new { ReservationId = createdReservation.ReservationId }, reservation);
         }
 
-        [HttpPut("{ReservationId}")]
+        [HttpPut("update/{ReservationId}")]
         public async Task<IActionResult> PutReservation(int ReservationId, ReservationViewModel reservation)
         {
-            if (ReservationId != reservation.ReservationId)
+            if (ReservationId<=0)
             {
-                return BadRequest("Reservation ID mismatch");
+                return BadRequest("Invalid Reservation ID");
+            }
+            var existingReservation = await _reservationRepository.GetReservationByIdAsync(ReservationId);
+            if (existingReservation == null)
+            {
+                return NotFound("Reservation not found");
             }
 
             await _reservationRepository.UpdateReservationAsync(ReservationId, reservation);
             return NoContent();
         }
 
-        [HttpDelete("{ReservationId}")]
+        [HttpDelete("remove/{ReservationId}")]
         public async Task<IActionResult> DeleteReservation(int ReservationId)
         {
             var reservation = await _reservationRepository.GetReservationByIdAsync(ReservationId);

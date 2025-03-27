@@ -17,6 +17,11 @@ namespace AuthService.Controllers
             new User { UserId = 2, Email = "londhe@example.com", Password = "password2", Role = "User" }
         };
 
+       /* [HttpGet]
+        public ActionResult login()
+        {
+            return View;
+        }*/
         // Registration (Create User)
         [HttpPost("register")]
         public ActionResult<User> RegisterUser(User user)

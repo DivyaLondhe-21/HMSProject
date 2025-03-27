@@ -13,7 +13,11 @@ namespace InventoryService
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
-
+            builder.Services.AddAuthorization(options =>
+            {
+                options.AddPolicy("AdminPolicy", policy => policy.RequireRole("Admin"));
+                options.AddPolicy("ManagerPolicy", policy => policy.RequireRole("Manager"));
+            });
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -26,7 +30,7 @@ namespace InventoryService
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
-
+            
 
             app.MapControllers();
 

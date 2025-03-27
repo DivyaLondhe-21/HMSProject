@@ -21,6 +21,12 @@ public class RoomController : ControllerBase
         var rooms = await _roomRepository.GetAllRoomsAsync();
         return Ok(rooms);
     }
+    [HttpGet("available")]
+    public async Task<IActionResult> GetAvailableRooms()
+    {
+        var rooms = await _roomRepository.GetAvailableRoomsAsync();
+        return Ok(rooms);
+    }
 
     // GET: api/Room/5
     [HttpGet("{id}")]
@@ -36,7 +42,7 @@ public class RoomController : ControllerBase
     }
 
     // POST: api/Room
-    [HttpPost]
+    [HttpPost("create")]
     public async Task<IActionResult> CreateRoom([FromBody] Room room)
     {
         if (!ModelState.IsValid)
@@ -49,7 +55,7 @@ public class RoomController : ControllerBase
     }
 
     // PUT: api/Room/5
-    [HttpPut("{id}")]
+    [HttpPut("update/{id}")]
     public async Task<IActionResult> UpdateRoom(int id, [FromBody] Room room)
     {
         if (id != room.RoomID)
@@ -66,8 +72,19 @@ public class RoomController : ControllerBase
         return NoContent();
     }
 
+    [HttpPut("update/availability/{id}")]
+    public async Task<IActionResult> UpdateRoomAvailability(int id, [FromBody] bool isAvailable)
+    {
+        var updatedRoom = await _roomRepository.UpdateAvailabilityOfRoom(id, isAvailable);
+        if (updatedRoom == null)
+        {
+            return NotFound();
+        }
+        return Ok(updatedRoom);
+    }
+
     // DELETE: api/Room/5
-    [HttpDelete("{id}")]
+    [HttpDelete("remove/{id}")]
     public async Task<IActionResult> DeleteRoom(int id)
     {
         var deleted = await _roomRepository.DeleteRoomAsync(id);

@@ -29,7 +29,11 @@ namespace ReservationService.Repositories
             return await _context.Reservations.Include(r=> r.Room).FirstOrDefaultAsync(r=> r.ReservationId==ReservationId) ?? throw new KeyNotFoundException("Reservation not found");
         }
 
-        public async Task<ReservationViewModel> AddReservationAsync(ReservationViewModel reservation)
+        public async Task<IEnumerable<Reservation>> GetActiveReservationAsync()
+        {
+            return await _context.Reservations.Include(r => r.Room).Where(r => r.CheckInDate == DateTime.Today).ToListAsync();
+        }
+        public async Task<Reservation> AddReservationAsync(ReservationViewModel reservation)
         {
             int numberOfDays = reservation.CalculateNumOfNights();
 
@@ -73,7 +77,7 @@ namespace ReservationService.Repositories
             };
             await _context.Rooms.AddAsync(roomUpdates);
             await _context.SaveChangesAsync();
-            return reservation;
+            return reservationEntity;
         }
 
         /*        public async Task UpdateReservationAsync(Reservation reservation)

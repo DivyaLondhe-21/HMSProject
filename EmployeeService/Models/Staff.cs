@@ -41,6 +41,6 @@ public partial class Staff
     [StringLength(100, ErrorMessage = "Email cannot exceed 100 characters.")]
     public string Email { get; set; }
 
-    [Required]
+ 
     public string HiredBy { get; set; }
 }

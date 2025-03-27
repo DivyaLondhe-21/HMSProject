@@ -13,6 +13,7 @@ public partial class Department
     [StringLength(100, ErrorMessage = "Department name cannot exceed 100 characters.")]
     public string DepartmentName { get; set; }
 
+
     public ICollection<Staff> Staffs { get; set; } = new List<Staff>();
 
 }

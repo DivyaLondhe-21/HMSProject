@@ -6,27 +6,27 @@ namespace ReservationService.Controllers
 {
     public class RoomController : Controller
     {
-        private readonly IReservation _reservationRepository;
+        private readonly IRoom _roomRepository;
 
-        public RoomController(IReservation reservationRepository)
+        public RoomController(IRoom roomRepository)
         {
-            _reservationRepository = reservationRepository;
+            _roomRepository = roomRepository;
         }
         public IActionResult Index()
         {
             return View();
         }
-        [HttpGet("{roomId}/rate")]
+       /* [HttpGet("{roomId}/rate")]
         public async Task<IActionResult> GetRoomRate(int roomId)
         {
-           // var room = await _reservationRepository.Rooms.FindAsync(roomId);
+           *//*var room = await _roomRepository.GetRoomRates(roomId);
 
-           /* if (room == null)
+            if (room == null)
             {
                 return NotFound("Room not found.");
-            }*/
+            }
 
-            return Ok();
-        }
+            return Ok(room);*//*
+        }*/
     }
 }

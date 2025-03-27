@@ -13,7 +13,17 @@ namespace EmployeeService
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+            builder.Services.AddAuthorization(options =>
+            {
+                options.AddPolicy("ViewOnly", policy =>
+                    policy.RequireRole("Admin", "Manager", "Receptionist"));
 
+                options.AddPolicy("ManageStaff", policy =>
+                    policy.RequireRole("Admin", "Manager"));
+
+                options.AddPolicy("ManageDepartments", policy =>
+                    policy.RequireRole("Admin"));
+            });
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.

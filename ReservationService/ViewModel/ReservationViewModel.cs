@@ -9,7 +9,6 @@ namespace ReservationService.ViewModel;
 public partial class ReservationViewModel
 {
 
-    public int ReservationId { get; set; }
 
     [Range(0, int.MaxValue, ErrorMessage = "Number of children must be a non-negative value.")]
     public int NumberOfChildren { get; set; }

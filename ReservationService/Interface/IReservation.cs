@@ -9,7 +9,8 @@ namespace ReservationService.Interface
     {
         Task<IEnumerable<Reservation>> GetAllReservationsAsync();
         Task<Reservation> GetReservationByIdAsync(int ReservationId);
-        Task<ReservationViewModel> AddReservationAsync(ReservationViewModel reservation);
+        Task<IEnumerable<Reservation>> GetActiveReservationAsync();
+        Task<Reservation> AddReservationAsync(ReservationViewModel reservation);
         Task<ReservationViewModel> UpdateReservationAsync(int reservationId, ReservationViewModel reservation);
         Task DeleteReservationAsync(int ReservationId);
     }
