@@ -340,3 +340,4 @@ C:\Users\DRAJESHL\source\repos\OnlineHotelManagementSystem\AuthService\obj\Debug
 C:\Users\DRAJESHL\source\repos\OnlineHotelManagementSystem\AuthService\obj\Debug\net8.0\AuthService.pdb
 C:\Users\DRAJESHL\source\repos\OnlineHotelManagementSystem\AuthService\obj\Debug\net8.0\AuthService.genruntimeconfig.cache
 C:\Users\DRAJESHL\source\repos\OnlineHotelManagementSystem\AuthService\obj\Debug\net8.0\ref\AuthService.dll
+C:\Users\DRAJESHL\source\repos\OnlineHotelManagementSystem\AuthService\bin\Debug\net8.0\AuthService.staticwebassets.runtime.json

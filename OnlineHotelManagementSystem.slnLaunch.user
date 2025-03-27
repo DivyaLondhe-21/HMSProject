@@ -1,0 +1,35 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "ReservationService\\ReservationService.csproj",
+        "Action": "StartWithoutDebugging"
+      },
+      {
+        "Path": "EmployeeService\\EmployeeService.csproj",
+        "Action": "StartWithoutDebugging"
+      },
+      {
+        "Path": "InventoryService\\InventoryService.csproj",
+        "Action": "StartWithoutDebugging"
+      },
+      {
+        "Path": "RoomService\\RoomService.csproj",
+        "Action": "StartWithoutDebugging"
+      },
+      {
+        "Path": "PaymentService\\PaymentService.csproj",
+        "Action": "StartWithoutDebugging"
+      },
+      {
+        "Path": "AuthService\\AuthService.csproj",
+        "Action": "StartWithoutDebugging"
+      },
+      {
+        "Path": "HotelGateway\\HotelGateway.csproj",
+        "Action": "StartWithoutDebugging"
+      }
+    ]
+  }
+]

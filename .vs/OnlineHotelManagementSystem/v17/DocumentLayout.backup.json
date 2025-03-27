@@ -1,0 +1,232 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EE0B6914-4CE7-4EA5-A436-B7F5A1657F4E}|HotelGateway\\HotelGateway.csproj|c:\\users\\drajeshl\\source\\repos\\onlinehotelmanagementsystem\\hotelgateway\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EE0B6914-4CE7-4EA5-A436-B7F5A1657F4E}|HotelGateway\\HotelGateway.csproj|solutionrelative:hotelgateway\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ADA77A5-025D-47AC-AEE0-C5C751498DF9}|AuthService\\AuthService.csproj|c:\\users\\drajeshl\\source\\repos\\onlinehotelmanagementsystem\\authservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7ADA77A5-025D-47AC-AEE0-C5C751498DF9}|AuthService\\AuthService.csproj|solutionrelative:authservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE0B6914-4CE7-4EA5-A436-B7F5A1657F4E}|HotelGateway\\HotelGateway.csproj|c:\\users\\drajeshl\\source\\repos\\onlinehotelmanagementsystem\\hotelgateway\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EE0B6914-4CE7-4EA5-A436-B7F5A1657F4E}|HotelGateway\\HotelGateway.csproj|solutionrelative:hotelgateway\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ADA77A5-025D-47AC-AEE0-C5C751498DF9}|AuthService\\AuthService.csproj|c:\\users\\drajeshl\\source\\repos\\onlinehotelmanagementsystem\\authservice\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ADA77A5-025D-47AC-AEE0-C5C751498DF9}|AuthService\\AuthService.csproj|solutionrelative:authservice\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ADA77A5-025D-47AC-AEE0-C5C751498DF9}|AuthService\\AuthService.csproj|c:\\users\\drajeshl\\source\\repos\\onlinehotelmanagementsystem\\authservice\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ADA77A5-025D-47AC-AEE0-C5C751498DF9}|AuthService\\AuthService.csproj|solutionrelative:authservice\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ADA77A5-025D-47AC-AEE0-C5C751498DF9}|AuthService\\AuthService.csproj|c:\\users\\drajeshl\\source\\repos\\onlinehotelmanagementsystem\\authservice\\models\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ADA77A5-025D-47AC-AEE0-C5C751498DF9}|AuthService\\AuthService.csproj|solutionrelative:authservice\\models\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ADA77A5-025D-47AC-AEE0-C5C751498DF9}|AuthService\\AuthService.csproj|c:\\users\\drajeshl\\source\\repos\\onlinehotelmanagementsystem\\authservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ADA77A5-025D-47AC-AEE0-C5C751498DF9}|AuthService\\AuthService.csproj|solutionrelative:authservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE0B6914-4CE7-4EA5-A436-B7F5A1657F4E}|HotelGateway\\HotelGateway.csproj|c:\\users\\drajeshl\\source\\repos\\onlinehotelmanagementsystem\\hotelgateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE0B6914-4CE7-4EA5-A436-B7F5A1657F4E}|HotelGateway\\HotelGateway.csproj|solutionrelative:hotelgateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17D6D384-E90A-4FEA-A6F5-170D878F446F}|RoomService\\RoomService.csproj|c:\\users\\drajeshl\\source\\repos\\onlinehotelmanagementsystem\\roomservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{17D6D384-E90A-4FEA-A6F5-170D878F446F}|RoomService\\RoomService.csproj|solutionrelative:roomservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17D6D384-E90A-4FEA-A6F5-170D878F446F}|RoomService\\RoomService.csproj|c:\\users\\drajeshl\\source\\repos\\onlinehotelmanagementsystem\\roomservice\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17D6D384-E90A-4FEA-A6F5-170D878F446F}|RoomService\\RoomService.csproj|solutionrelative:roomservice\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 19,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\HotelGateway\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "HotelGateway\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\HotelGateway\\Properties\\launchSettings.json",
+              "RelativeToolTip": "HotelGateway\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-27T16:26:28.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\AuthService\\Models\\UserDbContext.cs",
+              "RelativeDocumentMoniker": "AuthService\\Models\\UserDbContext.cs",
+              "ToolTip": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\AuthService\\Models\\UserDbContext.cs",
+              "RelativeToolTip": "AuthService\\Models\\UserDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T11:36:25.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\AuthService\\Program.cs",
+              "RelativeDocumentMoniker": "AuthService\\Program.cs",
+              "ToolTip": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\AuthService\\Program.cs",
+              "RelativeToolTip": "AuthService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T11:36:21.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\HotelGateway\\Program.cs",
+              "RelativeDocumentMoniker": "HotelGateway\\Program.cs",
+              "ToolTip": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\HotelGateway\\Program.cs",
+              "RelativeToolTip": "HotelGateway\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T10:58:01.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\AuthService\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "AuthService\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\AuthService\\Properties\\launchSettings.json",
+              "RelativeToolTip": "AuthService\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-27T06:26:44.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\AuthService\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "AuthService\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\AuthService\\Controllers\\UserController.cs",
+              "RelativeToolTip": "AuthService\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T06:24:46.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\AuthService\\Models\\User.cs",
+              "RelativeDocumentMoniker": "AuthService\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\AuthService\\Models\\User.cs",
+              "RelativeToolTip": "AuthService\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T06:18:28.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\RoomService\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "RoomService\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\RoomService\\Properties\\launchSettings.json",
+              "RelativeToolTip": "RoomService\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-27T06:11:20.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RoomController.cs",
+              "DocumentMoniker": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\RoomService\\Controllers\\RoomController.cs",
+              "RelativeDocumentMoniker": "RoomService\\Controllers\\RoomController.cs",
+              "ToolTip": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\RoomService\\Controllers\\RoomController.cs",
+              "RelativeToolTip": "RoomService\\Controllers\\RoomController.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAYwFAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T06:11:07.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ocelot.json",
+              "DocumentMoniker": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\HotelGateway\\ocelot.json",
+              "RelativeDocumentMoniker": "HotelGateway\\ocelot.json",
+              "ToolTip": "C:\\Users\\DRAJESHL\\source\\repos\\OnlineHotelManagementSystem\\HotelGateway\\ocelot.json",
+              "RelativeToolTip": "HotelGateway\\ocelot.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-27T05:42:02.769Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{be4d7042-ba3f-11d2-840e-00c04f9902c1}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
