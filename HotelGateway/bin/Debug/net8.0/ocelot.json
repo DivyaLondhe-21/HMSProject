@@ -2,9 +2,9 @@
     "GlobalConfiguration": {
         "BaseUrl": "http://localhost:5032"
     },
-    "Routes": [
+    "Routes": [ 
         {
-            "UpstreamPathTemplate": "/user/{id}",
+            "UpstreamPathTemplate": "/user/{id}", 
             "UpstreamHttpMethod": [ "GET" ],
             "DownstreamPathTemplate": "/api/user/{id}",
             "DownstreamScheme": "http",

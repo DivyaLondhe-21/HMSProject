@@ -1,5 +1,6 @@
 using Ocelot.DependencyInjection;
 using Ocelot.Middleware;
+using MMLib.SwaggerForOcelot.DependencyInjection;
 
 namespace HotelGateway
 {
@@ -9,6 +10,16 @@ namespace HotelGateway
         {
             var builder = WebApplication.CreateBuilder(args);
 
+            builder.Configuration.AddJsonFile("ocelot.json", optional: false, reloadOnChange: true);
+
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAllOrigins",
+                    builder => builder.AllowAnyOrigin()
+                                      .AllowAnyHeader()
+                                      .AllowAnyMethod());
+            });
+
             // Add services to the container.
 
             builder.Services.AddControllers();
@@ -16,19 +27,28 @@ namespace HotelGateway
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
+            builder.Services.AddOcelot();
+
             var app = builder.Build();
+
+            app.UseCors("AllowAllOrigins");
+
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();
-                app.UseSwaggerUI();
+                app.UseSwaggerForOcelotUI(opt =>
+                {
+                    opt.PathToSwaggerGenerator = "/swagger/docs";
+                });
             }
-
+            
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
 
+            app.UseOcelot().Wait();
 
             app.MapControllers();
 

@@ -568,5 +568,11 @@
                 }
             ]
         }
+    ],
+    "SwaggerEndPoints": [
+        {
+            "Name": "User Service",
+            "Url": "http://localhost:5088/swagger/v1/swagger.json"
+        }
     ]
 }
