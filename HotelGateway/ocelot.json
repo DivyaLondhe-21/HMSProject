@@ -3,115 +3,125 @@
         "BaseUrl": "http://localhost:5032"
     },
     "Routes": [
-        {
-            "UpstreamPathTemplate": "/user/{id}",
-            "UpstreamHttpMethod": [ "GET" ],
-            "DownstreamPathTemplate": "/api/user/{id}",
-            "DownstreamScheme": "http",
-            "DownstreamHostAndPorts": [
-                {
-                    "Host": "localhost",
-                    "Port": 5088
-                }
-            ]
-        },
-        {
-            "UpstreamPathTemplate": "/register",
-            "UpstreamHttpMethod": [ "POST" ],
-            "DownstreamPathTemplate": "/api/register",
-            "DownstreamScheme": "http",
-            "DownstreamHostAndPorts": [
-                {
-                    "Host": "localhost",
-                    "Port": 5088
-                }
-            ]
-        },
-        {
-            "UpstreamPathTemplate": "/login",
-            "UpstreamHttpMethod": [ "POST" ],
-            "DownstreamPathTemplate": "/api/login",
-            "DownstreamScheme": "http",
-            "DownstreamHostAndPorts": [
-                {
-                    "Host": "localhost",
-                    "Port": 5088
-                }
-            ]
-        },
-        {
-            "UpstreamPathTemplate": "/users",
-            "UpstreamHttpMethod": [ "GET" ],
-            "DownstreamPathTemplate": "/api/users",
-            "DownstreamScheme": "http",
-            "DownstreamHostAndPorts": [
-                {
-                    "Host": "localhost",
-                    "Port": 5088
-                }
-            ]
-        },
-        {
-            "UpstreamPathTemplate": "/user/{id}",
-            "UpstreamHttpMethod": [ "PUT" ],
-            "DownstreamPathTemplate": "/api/user/{id}",
-            "DownstreamScheme": "http",
-            "DownstreamHostAndPorts": [
-                {
-                    "Host": "localhost",
-                    "Port": 5088
-                }
-            ]
-        },
-        {
-            "UpstreamPathTemplate": "/user/{id}",
-            "UpstreamHttpMethod": [ "DELETE" ],
-            "DownstreamPathTemplate": "/api/user/{id}",
-            "DownstreamScheme": "http",
-            "DownstreamHostAndPorts": [
-                {
-                    "Host": "localhost",
-                    "Port": 5088
-                }
-            ]
-        },
+      {
+        "DownstreamPathTemplate": "/api/user/{id}",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "localhost",
+            "Port": 5088
+          }
+        ],
+        "UpstreamPathTemplate": "/user/{id}",
+        "UpstreamHttpMethod": [ "GET" ]
 
-        {
-            "UpstreamPathTemplate": "/employee/departments",
-            "UpstreamHttpMethod": [ "GET" ],
-            "DownstreamPathTemplate": "/api/employee/departments",
-            "DownstreamScheme": "http",
-            "DownstreamHostAndPorts": [
-                {
-                    "Host": "localhost",
-                    "Port": 5174
-                }
-            ]
-        },
-        {
-            "UpstreamPathTemplate": "/employee/staff",
-            "UpstreamHttpMethod": [ "GET" ],
-            "DownstreamPathTemplate": "/api/employee/staff",
-            "DownstreamScheme": "http",
-            "DownstreamHostAndPorts": [
-                {
-                    "Host": "localhost",
-                    "Port": 5174
-                }
-            ]
-        },
-        {
-            "UpstreamPathTemplate": "/employee/staff/{departmentName}",
-            "UpstreamHttpMethod": [ "GET" ],
-            "DownstreamPathTemplate": "/api/employee/staff/{departmentName}",
-            "DownstreamScheme": "http",
-            "DownstreamHostAndPorts": [
-                {
-                    "Host": "localhost",
-                    "Port": 5174
-                }
-            ]
-        },
+      },
+      {
+        "DownstreamPathTemplate": "/api/register",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "localhost",
+            "Port": 5088
+          }
+        ],
+        "UpstreamPathTemplate": "/register",
+        "UpstreamHttpMethod": [ "POST" ]
+
+      },
+      {
+        "DownstreamPathTemplate": "/api/auth/login",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "localhost",
+            "Port": 5088
+          }
+        ],
+        "UpstreamPathTemplate": "/login",
+        "UpstreamHttpMethod": [ "POST" ]
+
+      },
+      {
+        "DownstreamPathTemplate": "/api/users",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "localhost",
+            "Port": 5088
+          }
+        ],
+        "UpstreamPathTemplate": "/User",
+        "UpstreamHttpMethod": [ "GET" ]
+
+      },
+      {
+
+        "DownstreamPathTemplate": "/api/user/{id}",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "localhost",
+            "Port": 5088
+          }
+        ],
+        "UpstreamPathTemplate": "/user/{id}",
+        "UpstreamHttpMethod": [ "PUT" ]
+
+      },
+      {
+        "DownstreamPathTemplate": "/api/user/{id}",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "localhost",
+            "Port": 5088
+          }
+        ],
+        "UpstreamPathTemplate": "/user/{id}",
+        "UpstreamHttpMethod": [ "DELETE" ]
+
+      },
+
+      /*{
+        "DownstreamPathTemplate": "/api/employee/departments",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "localhost",
+            "Port": 5174
+          }
+        ],
+        "UpstreamPathTemplate": "/employee/departments",
+        "UpstreamHttpMethod": [ "GET" ]
+
+      },
+      {
+        "DownstreamPathTemplate": "/api/employee/staff",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "localhost",
+            "Port": 5174
+          }
+        ],
+        "UpstreamPathTemplate": "/employee/staff",
+        "UpstreamHttpMethod": [ "GET" ]
+
+      },
+      {
+        "DownstreamPathTemplate": "/api/employee/staff/{departmentName}",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "localhost",
+            "Port": 5174
+          }
+        ],
+        "UpstreamPathTemplate": "/employee/staff/{departmentName}",
+        "UpstreamHttpMethod": [ "GET" ]
+
+      },
         {
             "UpstreamPathTemplate": "/employee/staff/{staffID}",
             "UpstreamHttpMethod": [ "GET" ],
@@ -567,11 +577,11 @@
                     "Port": 5088
                 }
             ]
-        }
+        }*/
     ],
     "SwaggerEndPoints": [
         {
-            "Name": "User Service",
+            "Name": "AuthService",
             "Url": "http://localhost:5088/swagger/v1/swagger.json"
         }
     ]

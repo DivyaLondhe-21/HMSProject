@@ -1,5 +1,5 @@
 
-namespace RoomService
+namespace AuthService
 {
     public class Program
     {
@@ -14,9 +14,16 @@ namespace RoomService
             builder.Services.AddEndpointsApiExplorer();
 
             //added
-            builder.Configuration.AddJsonFile("ocelot.json", optional: false, reloadOnChange: true);
+            builder.Services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
+                {
+                    Title = "AuthService API",
+                    Version = "v1"
+                });
+            });
 
-            builder.Services.AddSwaggerGen();
+            //builder.Services.AddSwaggerGen();
 
             var app = builder.Build();
 
@@ -24,7 +31,9 @@ namespace RoomService
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();
-                app.UseSwaggerUI();
+                app.UseSwaggerUI(c => {
+                    c.SwaggerEndpoint("/swagger/v1/swagger.json", "AuthService API");
+                });
             }
 
             app.UseHttpsRedirection();
